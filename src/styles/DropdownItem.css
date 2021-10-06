@@ -18,6 +18,7 @@
 .dropdownItemImage {
   height: 100px;
   width: 100px;
+  scale: 0.9;
 }
 
 .dropdownItemTitle {

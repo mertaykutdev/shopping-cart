@@ -13,8 +13,7 @@
 }
 
 .cartItemImage {
-  size: 80%;
-  scale: 0.9;
+  max-width: 100%;
 }
 
 .cartItemTitle {
