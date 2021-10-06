@@ -49,7 +49,7 @@ function App() {
         <Nav cartItems={cartItems} removeItemFromCart={removeItemFromCart}/>
         <Switch>
           <div className="maincontent">
-            <Route exact path="/">
+            <Route exact path="/shopping-cart">
               <Home
                 items={items}
                 addItemToCart={addItemToCart}

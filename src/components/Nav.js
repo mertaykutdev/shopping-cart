@@ -22,7 +22,7 @@ function Nav(props) {
 
   return (
     <nav>
-      <Link to="/">Home</Link>
+      <Link to="/shopping-cart">Home</Link>
 
       <div
         id="dropdownparent"
