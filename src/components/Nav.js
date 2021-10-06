@@ -31,7 +31,7 @@ function Nav(props) {
       >
         <Link to="/cart">
           <img
-            src={"/assets/images/shopping-cart.svg"}
+            src={"/shopping-cart/assets/images/shopping-cart.svg"}
             alt="Shopping Cart"
             style={{ height: "50px", margin: "2px" }}
           />
