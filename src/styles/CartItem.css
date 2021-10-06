@@ -14,7 +14,7 @@
 
 .cartItemImage {
   size: 80%;
-  margin: 5%;
+  scale: 0.9;
 }
 
 .cartItemTitle {
