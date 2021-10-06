@@ -22,7 +22,7 @@ function Nav(props) {
 
   return (
     <nav>
-      <Link to="/shopping-cart">Home</Link>
+      <Link to="/">Home</Link>
 
       <div
         id="dropdownparent"
@@ -31,7 +31,7 @@ function Nav(props) {
       >
         <Link to="/cart">
           <img
-            src={"shopping-cart/assets/images/shopping-cart.svg"}
+            src={"/assets/images/shopping-cart.svg"}
             alt="Shopping Cart"
             style={{ height: "50px", margin: "2px" }}
           />
