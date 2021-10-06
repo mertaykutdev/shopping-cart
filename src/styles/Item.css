@@ -1,0 +1,71 @@
+.item {
+  display: flex;
+  position: relative;
+  margin: 5px;
+  padding: 1%;
+  width: 35vw;
+  height: 40vh;
+  border: 5px;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.itemImage {
+  height: 100px;
+  width: 100px;
+}
+
+.itemTitle {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 5px 10px 5px 10px;
+  width: 25vw;
+  height: 10vh;
+  overflow: hidden;
+}
+
+.itemPrice {
+  position: absolute;
+  left: 90%;
+}
+
+.itemDescription {
+  font-size: 18px;
+  padding: 5px;
+  position: absolute;
+  width: 34vw;
+  height: 17vh;
+  top: 28%;
+  overflow: hidden;
+}
+
+.btnDecreasePreviewQuantity {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  top: 80%;
+}
+
+.previewQuantity {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  top: 80%;
+  left: 30%;
+}
+
+.btnIncreasePreviewQuantity {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  top: 80%;
+  left: 40%;
+} 
+
+.btnAddItemToCart {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  top: 75%;
+  left: 65%;
+}

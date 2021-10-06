@@ -1,0 +1,20 @@
+.App {
+  font-family: Roboto, sans-serif;
+}
+
+.maincontent {
+  margin: 8px;
+}
+
+button {
+  font-weight: 300;
+  border: 0.1em solid black;
+  border-radius: 1000px;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}

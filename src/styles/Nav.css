@@ -1,0 +1,41 @@
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(65, 60, 60);
+}
+
+nav > * {
+  color: red;
+  text-decoration: none;
+}
+
+#dropdownparent {
+  position: relative;
+}
+
+#counter {
+  pointer-events: none;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+#dropdown {
+  z-index: 999;
+  position: absolute;
+  top: 50px;
+  max-width: 310px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+ul {
+  list-style: none;
+}
