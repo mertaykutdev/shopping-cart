@@ -23,7 +23,7 @@ function Item(props) {
     <div className="item" id={`item${item.id}`}>
       <img
         className="itemImage"
-        src={`/assets/images/item-images/${item.id}.svg`}
+        src={`/shopping-cart/assets/images/item-images/${item.id}.svg`}
         alt=""
       />
       <p className="itemTitle">{item.title}</p>

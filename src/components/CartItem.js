@@ -19,7 +19,7 @@ function CartItem(props) {
     <div className="cartItem" id={`cartItem${cartItem.id}`}>
       <img
         className="cartItemImage"
-        src={`/assets/images/item-images/${cartItem.id}.svg`}
+        src={`/shopping-cart/assets/images/item-images/${cartItem.id}.svg`}
         alt=""
       />
       <p className="cartItemTitle">{cartItem.title}</p>

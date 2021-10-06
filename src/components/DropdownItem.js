@@ -11,7 +11,7 @@ function DropdownItem(props) {
     <div className="dropdownItem" id={`item${item.id}`}>
       <img
         className="dropdownItemImage"
-        src={`/assets/images/item-images/${item.id}.svg`}
+        src={`/shopping-cart/assets/images/item-images/${item.id}.svg`}
         alt=""
       />
       <p className="dropdownItemTitle">{item.title}</p>
